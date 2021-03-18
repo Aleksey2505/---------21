@@ -7,6 +7,7 @@ a{
     text-decoration: none;
 }
  .dws-progress-bar {
+      overflow-y: hidden; 
  position: absolute;
  top: 50%;
  left: 50%;
@@ -14,6 +15,7 @@ a{
  z-index: 100;
 }
 .progress-percentage {
+      overflow-y: hidden;
  position: absolute;
  top: 50%;
  left: 50%;
@@ -24,6 +26,7 @@ a{
  color: #25ffe4;
 }
 #preloader {
+    overflow-y: hidden;
  position: fixed;
  left: 0;
  top: 0;
