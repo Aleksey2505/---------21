@@ -57,6 +57,7 @@ body.dark {
 
 
 #toggleThemeBtn{
+   
 /*transform:  translateX(140%);*/
     top:0;
     left:0;
@@ -102,6 +103,7 @@ body.dark button:active {
 
 
 .page-title {
+    transform: translateY(30%);
     z-index:10;
     font-size: 40px;
     line-height: 50px;
@@ -114,6 +116,7 @@ body.dark button:active {
     text-align: center;
 }
 .page-title:before {
+    
     content: '';
     position: absolute;
     filter: blur(10px);
@@ -204,9 +207,13 @@ animation: animate 5s linear infinite;
 
 
 
+.assembly{
+    
+}
 
-
-
+.js-catalog{
+   transform: translateY(-0.5%);
+}
 
 
 
@@ -221,7 +228,7 @@ animation: animate 5s linear infinite;
            align-items: center;
            padding: 40px 0;
            flex-wrap: wrap;
-           
+ 
        }
        .container .box{
            position: relative;
@@ -365,7 +372,7 @@ animation: animate 5s linear infinite;
 
 
 .gradient{
-    animation:  animate 5s linear infinite;
+    animation:  animate 25s linear infinite;
 }
 
 
@@ -1145,8 +1152,8 @@ img {
 
 .assembly{
     font-family: monospace;
-    margin-top: 10%;
-    margin-left: 30%;
+    margin-top: -20%;
+    margin-left: 25%;
     margin-bottom: 10%;
 }
 
@@ -1488,7 +1495,7 @@ width: 25%;
     }
  
     .slider2>.video1 {
-        background: blue;
+        
       position: absolute;
       left: 0;
       top: 0;
@@ -1535,17 +1542,50 @@ width: 25%;
  
  
 
+.product__btn{
+    background: none;
+}
+
+.product__btn::hover{
+    background: none;
+}
+
+
+
+@meida (max-width:800px){
+    
+    
+}
+
+
+.informationdiv{
+
+    min-height: 100%;
+    max-height: 100%;
+margin-top: -20%;
+    overflow-y: hidden;
+}
+.information{
+   
+    color:papayawhip;
+    word-spacing: 0.5em;
+       font-family: 'Pathway Gothic One', sans-serif;
+  margin-left: 0%;
+    line-height: 250%;
+    overflow-y: hidden;
+    margin-top: 30%;
+    text-transform: uppercase;
+    font-size: 100%;
+}
 
 
 
 
 
-
-
-
-
-
-
+ #toggleThemeBtn{
+     font-size: 25px;
+     background: pink;
+    color:white;
 
 
 
