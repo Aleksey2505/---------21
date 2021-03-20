@@ -1282,7 +1282,7 @@ img {
 
 .videowrapper{
     background-image: url("../img/фон.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 
