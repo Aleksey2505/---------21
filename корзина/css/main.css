@@ -1283,6 +1283,7 @@ img {
 .videowrapper{
     background-image: url("../img/фон.png");
     background-size: cover;
+    border-radius: 25%;
 }
 
 
@@ -1409,12 +1410,18 @@ background: radial-gradient(circle at 65% 15%, aqua, darkblue);
 	height: 60px;
 }
 .slider .slick-arrow.slick-prev{
+    
 	left: 0;
-	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+	background: url('https://i.gifer.com/ZLBs.gif') 0 0 / 100% no-repeat;
+    transform: rotate(180deg);
+   background-size: 40px;
+    
 }
 .slider .slick-arrow.slick-next{
+     
 	right: 0;
-	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+	background: url('https://i.gifer.com/ZLBs.gif') 0 0 / 100% no-repeat;
+     background-size: 40px;
 }
 .slider .slick-arrow.slick-disabled{
 	opacity: 0.2;
@@ -1431,9 +1438,9 @@ background: radial-gradient(circle at 65% 15%, aqua, darkblue);
 }
 .slider .slick-dots button{
 	font-size: 0;
-	width: 10px;
-	height: 10px;
-	background-color: #fff;
+	width: 20px;
+	height: 20px;
+background-color: gold;
 	border-radius: 50%;
 }
 
@@ -1630,6 +1637,11 @@ p.info-text {
         min-width: 320%;
     }
 }
+
+
+
+
+
 div#iphone {
     position: relative;
     
