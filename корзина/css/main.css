@@ -8,7 +8,6 @@
 
 
 
-
 a{
     text-decoration: none;
 }
@@ -660,6 +659,14 @@ img {
     padding: 13px 22px;
   }
 }
+
+@media (min-width:1200px){
+    #screen{
+        margin-left: 13%;
+    }
+}
+
+
 
 @media (max-width: 370px) {
   .product__price {
