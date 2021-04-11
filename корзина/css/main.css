@@ -647,6 +647,13 @@ img {
     font-size: 18px;
   }
 }
+
+
+
+
+#preloader{
+	overflow-x:hidden;
+
 /* product end */
 
 /* page-title start */
