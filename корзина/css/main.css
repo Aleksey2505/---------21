@@ -25,6 +25,7 @@ a{
  color: #25ffe4;
 }
 #preloader {
+	overflow-x:hidden;
  position: fixed;
  left: 0;
  top: 0;
