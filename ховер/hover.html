@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/hover.css">
+</head>
+<body>
+<div class="menuToggle"></div>
+ <div class="navigation">
+     <div class="navArea">
+         <ul class="z-index">
+             <li>
+                 <a href="#" onmouseenter="changeImage('images/images/img1.jpg ')">Home</a>
+             </li>
+             <li>
+                 <a href="#" onmouseenter='changeImage( "images/images/notepad.jpg") '>About Me</a>
+             </li>
+             
+             <li>
+                 <a href="#">only css html</a>
+             </li>
+             
+             <li>
+                <a href="#" onmouseenter='changeImage( "images/images/home1.jpg") '> otherPages</a>
+             </li>
+             
+             <li>
+                  <a href="#" onmouseenter='changeImage( "images/images/bighouse.jpg") '>css html js</a>
+             </li>
+             
+             
+             <li>
+                 <a href="#" onmouseenter='changeImage( "images/images/room.jpg") '>new</a>
+             </li>
+         </ul>
+     </div>
+ <div class="imgArea">
+     <img src="images/images/img1.jpg" id="slider">
+ </div>
+ <script>
+     function changeImage(anything){
+         document.getElementById('slider').src = anything;
+     }
+     </script>
+ 
+ </div>
+</body>
+</html>
