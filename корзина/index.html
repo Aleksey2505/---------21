@@ -39,7 +39,145 @@
     
     
     
+    <div id="wrapper">
+ <div id="iphone">
+  <div id="camera">
+   <span></span>
+   <span></span>
+  </div>
+  <div id="screen">
+   <div id="content-wrap">
+    <div id="background"></div>
+    <div id="content">
+     <div id="header">
+      <span id="menu-btn"><img src="https://emilcarlsson.se/assets/svg/menu.svg" alt="" class="svg"></span>
+      <span id="options-btn"><img src="https://emilcarlsson.se/assets/svg/more.svg" alt="" class="svg"></span>
+     </div>
+     <div class="jcarousel">
+      <ul id="songs">
+      	<li class="song"  data-color="#f38578">
+			<img src="img/notepad.jpg">
+			<p class="song-title">lxst</p>
+			<p class="song-artist"> cxntury</p>
+			</li>
+      </ul>
+     </div>
+     
+     
+  
+     
+     
+     
+     
+     
+     
+     <audio controls="controls" preload="none" loop>
+				<source src="LXST_CXNTURY_-_CYBERCITY_65359708.mp3" type="audio/mpeg">
+					<source src="LXST_CXNTURY_-_CYBERCITY_65359708.mp3" type="audio/ogg">
+			</audio>
+     <div id="controls">
+      <span id="previous-btn"><i class="fa fa-step-backward fa-fw" aria-hidden="true"></i></span>
+      <span id="play-btn"><i class="fa fa-play fa-fw" aria-hidden="true"></i></span>
+      <span id="next-btn"><i class="fa fa-step-forward fa-fw" aria-hidden="true"></i></span>
+     </div>
+     <div id="timeline">
+      <span id="current-time">--:--</span>
+      <span id="total-time">--:--</span>
+      <div class="slider" data-direction="horizontal">
+				<div class="progress">
+					<div class="pin" id="progress-pin" data-method="rewind"></div>
+				</div>
+			</div>
+     </div>
     
+    </div>
+    <div id="overlay"></div>
+   </div>
+   <div id="sidemenu">
+    <ul>
+     <li>
+      <i class="fa fa-search fa-fw" aria-hidden="true"></i>
+			Поиск
+     </li>
+     <li>
+      
+			 Моя музыка
+     </li>
+     <li>
+      
+      Избранное
+     </li>
+     <li>
+      <i class="fa fa-microphone fa-fw" aria-hidden="true"></i>
+     Музыканты
+     </li>
+			<li>
+				<i class="fa fa-podcast fa-fw" aria-hidden="true"></i>
+              обсуждать
+			</li>
+			<li>
+				<i class="fa fa-cog fa-fw" aria-hidden="true"></i>
+				Settings
+			</li>
+    </ul>
+   </div>
+	 <div id="bluetooth-devices" class="menu">
+			<span class="close-btn"><span>&times;</span> Close</span>
+			<h3>Devices nearby</h3>
+			<ul>
+				<li class="connected">
+					<img id="headphones-icon" class="svg menu-icons" src="https://emilcarlsson.se/assets/svg/headphone.svg" alt="">
+				
+				</li>
+				
+
+			</ul>
+		
+		</div>
+	 <div id="song-options" class="menu">
+		 <span class="close-btn"><span>&times;</span> Close</span>
+		 <div id="song-info">
+		 	<img src="img/cardback.jpg" alt="">
+			 <div class="artist-wrap">
+			 	<p>
+			 		<span class="title">rockstar</span>
+					<span class="artist"></span>
+			 	</p>
+			 </div>
+		 </div>
+	 	<ul>
+	 		<li>
+        <i class="fa fa-music fa-fw add" aria-hidden="true"></i>
+              Вк
+			</li>
+			<li>
+				<i class="fa fa-microphone fa-fw" aria-hidden="true"></i>
+				Ютуб
+			</li>
+     <li>
+     
+      Камера
+     </li>
+			<li>
+				<i class="fa fa-share-square-o fa-fw" aria-hidden="true"></i>
+				Интернет
+			</li>
+	 	</ul>
+	 </div>
+	 <div id="home-screen">
+		<div class="home-content">
+			<h2>Music Player App</h2>
+			<p id="made-by">Made by <a href="mailto:ak2205781@gmail.com">ak2205781@gmail.com</a></p>
+			<div class="app-icon">
+				<img class="svg" src="https://emilcarlsson.se/assets/svg/music-note.svg" alt="">
+			</div>
+			
+		</div>
+	 </div>
+  </div>
+  <div id="home-btn"></div>
+ </div>
+</div>
     
     
     
@@ -85,6 +223,12 @@
     
   <body>
   
+  <div id="preloader">
+
+	<div class="dws-progress-bar">
+	
+	</div>
+</div>
   
   
   
@@ -135,7 +279,7 @@
           
           <button id="toggleThemeBtn">Сменить тему на тёмную</button>
           <div class="informationdiv">
-          <p class="information">Нажимайте на область
+          <p class="information">Нижимайте на область
           картинки,<br> чтобы переключать фотограии<br>
           ( для мобильных устройств )</p>
           </div>
@@ -816,7 +960,8 @@ $(".processor2").brazzersCarousel();
     
  
     
-          
+           <script src="js/prelaoder.js"></script>
+    <script src="js/pluginpreloader.js"></script>
     
     
     
