@@ -235,11 +235,10 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 }
 
 #site-nav {
-  clear: both;
+  
   display: flex;
   flex-direction: column; 
-  height: 0;
-  overflow: hidden;
+ 
   padding-top: 2.5em;
 }
 
