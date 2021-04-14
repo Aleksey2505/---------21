@@ -315,6 +315,8 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 }
 
 #site-nav .social {
+  display:flex;
+  flex-direction:row;
   margin: 0;
   overflow: hidden;
 }
