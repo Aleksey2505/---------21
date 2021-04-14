@@ -195,7 +195,7 @@ header {
 
 
 #site-nav {
-    clear: both;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
