@@ -235,10 +235,13 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 }
 
 #site-nav {
-  
+
+  margin-top:20%;
+  align-items:center;
   display: flex;
-  flex-direction: column; 
- 
+  flex-direction: column-reverse; 
+  height: 0;
+  overflow: hidden;
   padding-top: 2.5em;
 }
 
@@ -247,7 +250,10 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
   overflow: visible;
 }
 
-#site-nav .col { 
+#site-nav .col {
+  
+  flex-wrap:wrap;
+  margin-left:10%; 
   padding-bottom: 2.5em;
 } 
 
