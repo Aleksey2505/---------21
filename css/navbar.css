@@ -192,6 +192,20 @@ header {
   align-items: center;
 }
 
+
+
+#site-nav {
+    clear: both;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    padding-top: 2.5em;
+
+
+
+
 .inner {
   max-width: 35rem;
   text-align: center;
@@ -260,21 +274,6 @@ border-radius: 20%;
 
 
 @media(max-width:930px){
-	
-	
-	#site-nav{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-		min-width:30%;
-		max-width:30%;
-	
-	}
-	
-	
-	
-	
-	
 	
 	
 	
