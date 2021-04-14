@@ -261,6 +261,23 @@ border-radius: 20%;
 
 @media(max-width:930px){
 	
+	
+	#site-nav{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+		min-width:30%;
+		max-width:30%;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	.links{
 		 width: 20%;
   right: 10%;
