@@ -266,14 +266,24 @@ border-radius: 20%;
 	
 	.links{
 		 width: 20%;
-  right: 10%;
-  top: 50%;
+  right: 65%;
+  top: 43%;
 		height: 600px;
 	}
 }
 
 
+@media(max-width:920px) and (min-width:700px){
 
+
+	.links{
+		 width: 40%;
+  right: -10%;
+  top: 23%;
+		height: 600px;
+	}
+	
+}
 
 
 
