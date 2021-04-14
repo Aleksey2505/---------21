@@ -193,17 +193,6 @@ header {
 }
 
 
-
-#site-nav {
-    
-    display: flex !important;
-    align-items: center !important;
-    flex-direction: column !important;
-    padding-top: 2.5em !important;
-
-}
-
-
 .inner {
   max-width: 35rem;
   text-align: center;
